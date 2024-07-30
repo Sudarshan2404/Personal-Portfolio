@@ -1,0 +1,242 @@
+@font-face {
+  font-family: Droid-serrif;
+  src: url(Assets/fonts/DroidSerif-Regular.ttf);
+}
+@font-face {
+  font-family: Apricot;
+  src: url(Assets/fonts/Apricot-BF650c4a6357ce1.otf);
+}
+
+body {
+  background-color: #c9dabf;
+}
+
+.nav {
+  position: fixed;
+  top: 5px;
+  font-family: Droid-serrif;
+}
+.nav,
+ul,
+a {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  color: #5f6f65;
+}
+
+.nav,
+li {
+  margin-right: 50px;
+  font-size: 1rem;
+  font-style: italic;
+  font-style: bold;
+}
+
+.nav li:first-child:hover {
+  text-decoration: underline;
+}
+
+.nav li:nth-child(2):hover {
+  text-decoration: underline;
+}
+
+.nav li:last-child:hover {
+  text-decoration: underline;
+}
+
+.Home {
+  color: #5f6f65;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  align-items: center;
+}
+
+.Home,
+h1 {
+  margin-top: 70px;
+  text-align: center;
+  font-family: Apricot;
+  font-size: 5.4rem;
+  margin-bottom: 15px;
+}
+
+.Home h2 {
+  font-family: Droid-serrif;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.about-container {
+  background-color: azure;
+}
+
+.pfp-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pfp img {
+  margin-top: 30px;
+}
+.pfp h3 {
+  font-family: Droid-serrif;
+  font-size: 1.2rem;
+  color: #5f6f65;
+  margin-top: 5px;
+}
+
+.me {
+  justify-content: center;
+  text-align: center;
+  margin-left: 15px;
+  font-family: Droid-serrif;
+  color: #5f6f65;
+}
+
+.me h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.me p {
+  font-size: 1.3rem;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 28px;
+  padding-bottom: 40px;
+}
+
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+  width: 35rem;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.contact-box h1 {
+  text-align: center;
+  margin-top: 25px;
+  font-family: Droid-serrif;
+  font-size: 2.3rem;
+  color: #5f6f65;
+  text-align: center;
+}
+
+.contact-box h4 {
+  font-family: Droid-serrif;
+  color: #5f6f65;
+  line-height: 35px;
+  width: 25rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#lets {
+  background-color: #c9dabf;
+  font-size: 1.2rem;
+  color: #5f6f65;
+  width: 12rem;
+  font-style: Droid-serrif;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.follow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.contact-box h2 {
+  color: #5f6f65;
+  text-align: center;
+}
+
+#link {
+  margin-top: 10px;
+}
+
+.footer {
+  font-family: Droid-serrif;
+  color: #5f6f65;
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+  .me p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 481px) {
+  .nav li {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  .nav li:first-child {
+    margin-left: 0;
+  }
+  .Home h1 {
+    font-size: 4rem;
+    margin-top: 20px;
+  }
+
+  .Home h2 {
+    font-size: 1rem;
+  }
+
+  .me p {
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 35px;
+  }
+
+  .contact {
+    width: 21rem;
+  }
+  .contact-box h4 {
+    width: 15rem;
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .follow {
+    margin-bottom: 50px;
+    margin-right: 10px;
+  }
+
+  #insta {
+    width: 20px;
+    height: 20px;
+  }
+
+  #link {
+    width: 60px;
+    height: 20px;
+  }
+
+  #git {
+    width: 20px;
+    height: 20px;
+  }
+}
